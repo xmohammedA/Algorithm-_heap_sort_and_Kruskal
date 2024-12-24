@@ -51,8 +51,24 @@
 ### Algorithm Description
 
 Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST)<br> of a connected, weighted graph. The MST is a subset of the edges that connects all vertices<br> in the graph while minimizing the total edge weight and avoiding any cycles.
+#### Key Idea:
+1. Sort all edges by weight (in ascending order).
+2. Add edges one by one to the MST, ensuring no cycles are formed.
+3. Use a Disjoint Set Union (DSU) data structure to efficiently detect cycles.
 
 ### Steps Involved in Kruskal Algorithm
+
+1. Input Preparation:
+- Accept the graph in the form of edges with weights.
+- Sort edges in ascending order of their weights.
+2.Initialize the Disjoint Set:
+- Each vertex is its own parent initially (for cycle detection).
+3. Edge Selection:
+- Iterate through the sorted edges.
+- For each edge, check if it connects two different sets of vertices using DSU.
+- If yes, add the edge to the MST and merge the two sets.
+4. Stop Condition:
+- Stop adding edges when the MST contains V−1 edges, where V is the number of vertices.
 
 ### Time Complexity Analysis
 
