@@ -26,7 +26,7 @@
 #### input
 ![image](https://github.com/user-attachments/assets/2266d064-aeb4-48c9-be10-de265eeda286)
 #### steps
-1. Build max heap
+1. Build max heap <br>
    ![image](https://github.com/user-attachments/assets/a5a87553-2ce2-45f8-bba6-38b7ce18e15e)
 2. Extract Maximum and Sort:
    - After 1st extraction: [5, 4, 3, 1, 10]
