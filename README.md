@@ -5,6 +5,11 @@
 2. Steps Involved in Heap-Sort
 3. Time Complexity Analysis
 4. Example
+   - [Heap-Sort Algorithm](#heap-sort-algorithm)
+  - [Algorithm Description](#algorithm-description)
+  - [Steps Involved in Heap-Sort](#steps-involved-in-heap-sort)
+  - [Time Complexity Analysis](#time-complexity-analysis)
+  - [Example](#example)
 
 ### Algorithm Description
    Heap-Sort is a comparison-based sorting algorithm that uses the properties of a binary heap (max-heap or min-heap).<br>
