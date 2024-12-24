@@ -79,7 +79,7 @@ Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 ![image](https://github.com/user-attachments/assets/779fa150-07d4-4169-8740-389bee3a0505)
 
 #### Steps:
-1. Sort Edges by Weight:
+1. Sort Edges by Weight: <br>
    ![image](https://github.com/user-attachments/assets/7ec7f671-cafd-4756-ad0d-83b510bd97d3)
 
 2.Initialize DSU(Disjoint Set Union): Each vertex is its own parent.
@@ -89,6 +89,10 @@ Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 - Add edge (0, 1, 7) → No cycle → MST = [(1, 2, 5), (3, 4, 5), (0, 1, 7)].
 - Add edge (1, 4, 7) → No cycle → MST = [(1, 2, 5), (3, 4, 5), (0, 1, 7), (1, 4, 7)].
 - Stop (MST now contains V−1=4 edges).
+
+#### Output
+![image](https://github.com/user-attachments/assets/37aa1eaf-d9ea-4d8b-b876-4a41bba10d49)
+
 
 
 
