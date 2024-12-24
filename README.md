@@ -19,8 +19,8 @@
 ### Time Complexity Analysis
 - Time Complexity:
       1. Building the heap: O(n)
-      1. Sorting the heap: O(nlogn)
-      1. Total: O(nlogn)
+      2. Sorting the heap: O(nlogn)
+      3. Total: O(nlogn)
 - Space Complexity: O(1) (in-place sorting).
 ### Example
 #### input
