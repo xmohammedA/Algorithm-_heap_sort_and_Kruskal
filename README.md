@@ -1,4 +1,4 @@
-# Algorithm_heap_sort_and_Kruskal
+# Algorithm_heap_sort_and_Kruskal’s-Algorithm
 ---
 ## Content
 - [Heap-Sort Algorithm](#heap-sort-algorithm)
