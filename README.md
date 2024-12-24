@@ -29,7 +29,7 @@
 1. Build max heap <br>
    ![image](https://github.com/user-attachments/assets/a5a87553-2ce2-45f8-bba6-38b7ce18e15e)
 2. Extract Maximum and Sort:
-   - After 1st extraction: [5, 4, 3, 1, 10]
+   - 1st extraction: [5, 4, 3, 1, 10]
    - 2nd extraction: [4, 1, 3, 5, 10]
    - 3rd extraction: [3, 1, 4, 5, 10]
    - 4th extraction: [1, 3, 4, 5, 10]
