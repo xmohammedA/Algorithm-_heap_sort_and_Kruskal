@@ -11,10 +11,10 @@
    It efficiently sorts data in O(nlogn) time and is an in-place sorting algorithm, requiring no extra memory for intermediate operations.
    
 ### Steps Involved in Heap-Sort
-    1.Build a Max Heap:
+   1.Build a Max Heap:
          Traverse all non-leaf nodes and ensure the max heap property for each node using a process called heapify.
-         'for i in range(n // 2 - 1  , -1,   -1):
-        heapify(arr, n, i)'
+         ''for i in range(n // 2 - 1  , -1,   -1):
+        heapify(arr, n, i)''
     2.Sort the Array
          1. Swap the root with the last element in the heap and then heapify the reduced heap.
          2.Repeat until all elements are sorted.
