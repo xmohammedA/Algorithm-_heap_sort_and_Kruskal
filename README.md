@@ -8,7 +8,7 @@
 
 ### Algorithm Description
    Heap-Sort is a comparison-based sorting algorithm that uses the properties of a 
-   binary heap (max-heap or min-heap). It efficiently sorts data in 
+   binary heap (max-heap or min-heap). It efficiently sorts data in. 
    O(nlogn) time and is an in-place sorting algorithm, requiring no extra memory for intermediate operations.
    
 ### Steps Involved in Heap-Sort
