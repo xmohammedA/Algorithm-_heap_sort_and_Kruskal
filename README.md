@@ -1,6 +1,6 @@
 # Algorithm_heap_sort_and_Kruskal
 ---
-## Table of Contents
+## Content
 - Heap-Sort Algorithm (#heap-sort-algorithm)
   - Algorithm Description(#algorithm-description)
   - Steps Involved in Heap-Sort(#steps-involved-in-heap-sort)
@@ -13,7 +13,7 @@
   - Example(#example-1)
 ---
  
-
+## Heap-Sort Algorithm
 
 ### Algorithm Description
    Heap-Sort is a comparison-based sorting algorithm that uses the properties of a binary heap (max-heap or min-heap).<br>
@@ -44,6 +44,17 @@
    - 4th extraction: [1, 3, 4, 5, 10]
 #### Output:
 ![image](https://github.com/user-attachments/assets/323e553a-65a8-45c8-a7cc-31945aae8898)
+
+
+## Kruskal's Algorithm
+
+### Algorithm Description
+
+### Steps Involved in Kruskal Algorithm
+
+### Time Complexity Analysis
+
+### Example
 
 
 
