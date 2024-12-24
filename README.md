@@ -11,17 +11,17 @@
    It efficiently sorts data in O(nlogn) time and is an in-place sorting algorithm, requiring no extra memory for intermediate operations.
    
 ### Steps Involved in Heap-Sort
- 1.Build a Max Heap:
+ 1. Build a Max Heap:
       Traverse all non-leaf nodes and ensure the max heap property for each node using a process called heapify.
- 2.Sort the Array
+ 2. Sort the Array
       1. Swap the root with the last element in the heap and then heapify the reduced heap.
-      2.Repeat until all elements are sorted.
+      2. Repeat until all elements are sorted.
 ### Time Complexity Analysis
--Time Complexity:
-      -Building the heap: O(n)
-      -Sorting the heap: O(nlogn)
-      -Total: O(nlogn)
--Space Complexity: O(1) (in-place sorting).
+- Time Complexity:
+      - Building the heap: O(n)
+      - Sorting the heap: O(nlogn)
+      - Total: O(nlogn)
+- Space Complexity: O(1) (in-place sorting).
 ### Example
 #### input
 ![image](https://github.com/user-attachments/assets/2266d064-aeb4-48c9-be10-de265eeda286)
