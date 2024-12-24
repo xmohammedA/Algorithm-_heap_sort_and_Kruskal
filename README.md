@@ -66,7 +66,7 @@ Overall Time Complexity:<br>
 Combining these steps, the overall time complexity of Kruskal’s algorithm is:
 𝑂(𝐸log𝐸+𝐸log𝑉)<br>
 
-However, since the number of edges 𝐸 is at most 𝑉<sup>2</sup> in a graph, the term log𝐸 is 𝑂(log𝑉2)=𝑂(2log𝑉)=𝑂(log⁡𝑉). Therefore, the time complexity can be simplified to:𝑂(𝐸log𝑉)
+However, since the number of edges 𝐸 is at most 𝑉<sup>2</sup> in a graph, the term log𝐸 is 𝑂(log𝑉<sup>2</sup>)=𝑂(2log𝑉)=𝑂(log⁡𝑉). Therefore, the time complexity can be simplified to:𝑂(𝐸log𝑉)
 
 
 ### *Example*
