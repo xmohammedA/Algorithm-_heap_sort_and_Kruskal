@@ -77,7 +77,7 @@ Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 - Performed E times, so the total is O(E⋅α(V)).
 
   
-Overall Time Complexity: O(ElogE+E⋅α(V))≈O(ElogE) for most cases.
+Overall Time Complexity: O(ElogE+E⋅α(V))≈O(ElogE) for most cases.<br>
 Space Complexity: O(V+E), primarily for storing edges and the DSU structure.
 
 ### *Example*
