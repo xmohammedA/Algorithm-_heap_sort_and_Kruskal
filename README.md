@@ -55,7 +55,7 @@ Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 ### *Time Complexity Analysis*
 1. Sorting Edges: O(ElogE), where E is the number of edges.
 2. Initialization of the Disjoint Set data structure takes O(𝑉) time, where 𝑉 is the number of vertices.
-   Each edge is considered for inclusion in the Minimum Spanning Tree (MST), <br>
+   Each edge is considered for inclusion in the Minimum Spanning Tree (MST), 
    which involves checking whether it forms a cycle (find operation) and unifying the sets (union operation). we can consider each     
    operation to be roughly 𝑂(log𝑉)in amortized time. Since each operation (find and union) is performed for at most 𝐸 edges, this step takes 𝑂(𝐸log𝑉)time.
 
