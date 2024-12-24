@@ -71,7 +71,14 @@ Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 - Stop adding edges when the MST contains V−1 edges, where V is the number of vertices.
 
 ### *Time Complexity Analysis*
+1. Sorting Edges: O(ElogE), where E is the number of edges.
+2. Union-Find Operations:
+- Each find or union operation takes 𝑂(α(V)), where 𝛼 is the inverse Ackermann function (almost constant for practical inputs).
+- Performed E times, so the total is O(E⋅α(V)).
 
+  
+Overall Time Complexity: O(ElogE+E⋅α(V))≈O(ElogE) for most cases.
+Space Complexity: O(V+E), primarily for storing edges and the DSU structure.
 
 ### *Example*
 
