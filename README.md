@@ -1,8 +1,8 @@
 # Algorithm_heap_sort_and_Kruskal
 ---
 ## Content
-- Heap-Sort Algorithm (#heap-sort-algorithm)
-  - Algorithm Description(#algorithm-description)
+- [Heap-Sort Algorithm](#heap-sort-algorithm)
+  - [Algorithm Description](#algorithm-description)
   - Steps Involved in Heap-Sort(#steps-involved-in-heap-sort)
   - Time Complexity Analysis(#time-complexity-analysis)
   - Example(#example)
