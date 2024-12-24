@@ -19,12 +19,7 @@
    Heap-Sort is a comparison-based sorting algorithm that uses the properties of a binary heap (max-heap or min-heap).<br>
    It efficiently sorts data in O(nlogn) time and is an in-place sorting algorithm, requiring no extra memory for intermediate operations.
    
-### *Steps Involved in Heap-Sort*
- 1. Build a Max Heap: <br>
-         Traverse all non-leaf nodes and ensure the max heap property for each node using a process called heapify.
- 2. Sort the Array
-      1. Swap the root with the last element in the heap and then heapify the reduced heap.
-      2. Repeat until all elements are sorted.
+
 ### *Time Complexity Analysis*
 1. Time Complexity:
       - Building the heap: O(n)
@@ -56,19 +51,6 @@ Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 2. Add edges one by one to the MST, ensuring no cycles are formed.
 3. Use a Disjoint Set Union (DSU) data structure to efficiently detect cycles.
 
-### *Steps Involved in Kruskal Algorithm*
-
-1. Input Preparation:
-- Accept the graph in the form of edges with weights.
-- Sort edges in ascending order of their weights.
-2.Initialize the Disjoint Set:
-- Each vertex is its own parent initially (for cycle detection).
-3. Edge Selection:
-- Iterate through the sorted edges.
-- For each edge, check if it connects two different sets of vertices using DSU.
-- If yes, add the edge to the MST and merge the two sets.
-4. Stop Condition:
-- Stop adding edges when the MST contains V−1 edges, where V is the number of vertices.
 
 ### *Time Complexity Analysis*
 1. Sorting Edges: O(ElogE), where E is the number of edges.
